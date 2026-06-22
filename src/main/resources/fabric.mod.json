@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "portalhelper",
+  "version": "${version}",
+  "name": "PortalHelper",
+  "description": "Converts coordinates between Overworld and Nether.",
+  "authors": ["ArrozNaTwitch"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.portalhelper.PortalHelper"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": ["1.21.11", "26.1.2", "26.2"]
+  }
+}
