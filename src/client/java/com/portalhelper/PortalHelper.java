@@ -37,7 +37,7 @@ public class PortalHelper implements ClientModInitializer {
         });
     }
 
-    // Estás no Overworld -> calcula coords no Nether (divide por 8)
+    // /portal overworld X Y Z -> estás no overworld, divide por 8 para obter coords no nether
     private int overworldToNether(CommandContext<FabricClientCommandSource> ctx) {
         double x = DoubleArgumentType.getDouble(ctx, "x");
         double y = DoubleArgumentType.getDouble(ctx, "y");
@@ -54,7 +54,7 @@ public class PortalHelper implements ClientModInitializer {
         return 1;
     }
 
-    // Estás no Nether -> calcula coords no Overworld (multiplica por 8)
+    // /portal nether X Y Z -> estás no nether, multiplica por 8 para obter coords no overworld
     private int netherToOverworld(CommandContext<FabricClientCommandSource> ctx) {
         double x = DoubleArgumentType.getDouble(ctx, "x");
         double y = DoubleArgumentType.getDouble(ctx, "y");
