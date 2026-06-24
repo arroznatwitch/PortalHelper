@@ -5,7 +5,9 @@
   "name": "PortalHelper",
   "description": "Converts coordinates between Overworld and Nether.",
   "authors": ["ArrozNaTwitch"],
-  "contact": {},
+  "contact": {
+    "issues": "https://github.com/arroznatwitch/PortalHelper/issues"
+  },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
