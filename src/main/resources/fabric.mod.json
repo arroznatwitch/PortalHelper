@@ -3,6 +3,7 @@
   "id": "portalhelper",
   "version": "${version}",
   "name": "PortalHelper",
+  "icon": "icon/icon.png",
   "description": "Converts coordinates between Overworld and Nether.",
   "authors": ["ArrozNaTwitch"],
   "contact": {
