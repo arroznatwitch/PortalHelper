@@ -7,3 +7,6 @@ The mod will calculate and display the corresponding coordinates where you shoul
 For `<world>`, use either `overworld` or `nether`.
 
 For `<coords>`, enter the coordinates in the format `x,y,z`
+
+# How To Build 
+Working on this!
