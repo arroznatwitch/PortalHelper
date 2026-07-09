@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/arroznatwitch/PortalHelper/master/src/main/resources/icon/icon.png" width="64" alt="PortalHelper icon">
+  <img src="https://raw.githubusercontent.com/arroznatwitch/PortalHelper/master/src/main/resources/icon/icon.png" width="120" alt="PortalHelper icon">
 </p>
 
 # PortalHelper
